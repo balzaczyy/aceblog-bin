@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <rss version="2.0">  <channel>
-    <title>Blog Title</title>
-    <link>http://sample.com</link>
-    <pubDate>12 Aug 14 18:39 +0800</pubDate>
+    <title>非正式技术小组</title>
+    <link>https://aceblog.mybluemix.net</link>
+    <pubDate>17 Aug 14 08:03 +0800</pubDate>
     <item>
-      <title>你的第一篇博客</title>
-      <link>http://sample.com/2013/new-born.html</link>
-      <pubDate>2013-02-08 12:00:00 +0800</pubDate>
-      <description>&lt;h1&gt;感谢你使用Gor编写博客&lt;/h1&gt;&#xA;&#xA;&lt;h2&gt;本文位于 posts/first-blog.md , 你可以任意删掉,修改这个文件&lt;/h2&gt;&#xA;&#xA;&lt;p&gt;文件开头是当前文章的元数据&lt;/p&gt;&#xA;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;date为自动生成, 当然,你可以修改,这是你的自由&lt;/li&gt;&#xA;&lt;li&gt;permalink 可以是固定地址,也可以由gor为你自动生成&lt;/li&gt;&#xA;&lt;li&gt;categories 就是分类, 可以多个&lt;/li&gt;&#xA;&lt;li&gt;tags 同理,多个标签也是很常见的&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&#xA;&lt;p&gt;请确保文件使用UTF8 without BOM编码&lt;/p&gt;&#xA;&#xA;&lt;h2&gt;你可以通过执行下面的语句来新建一篇博客:&lt;/h2&gt;&#xA;&#xA;&lt;pre&gt;&lt;code&gt;gor post 文章标题&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&#xA;&lt;h2&gt;编译你的博客,并预览之&lt;/h2&gt;&#xA;&#xA;&lt;pre&gt;&lt;code&gt;gor compile #编译&#xA;gor http&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&#xA;&lt;p&gt;然后打开你的浏览器,访问 &lt;a href=&#34;http://127.0.0.1:8080&#34;&gt;http://127.0.0.1:8080&lt;/a&gt; 来预览&lt;/p&gt;&#xA;&#xA;&lt;h2&gt;你将使用Markdown来编写博客&lt;/h2&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;http://wowubuntu.com/markdown/&#34;&gt;Markdown 语法中文版&lt;/a&gt; 能让你快速入门其语法&lt;/p&gt;&#xA;&#xA;&lt;p&gt;相信&lt;a href=&#34;http://markdownpad.com&#34;&gt;MarkdownPad&lt;/a&gt;或&lt;a href=&#34;http://code.google.com/p/liteide/&#34;&gt;liteide&lt;/a&gt;会是你的编写博客的好帮手&lt;/p&gt;&#xA;&#xA;&lt;h2&gt;如果你打算部署到github的pages上&lt;/h2&gt;&#xA;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;申请github帐户&lt;/li&gt;&#xA;&lt;li&gt;新建一个库 username.github.com 即你的用户名命名的地址&lt;/li&gt;&#xA;&lt;li&gt;将compiled目录,作为根路径,提交上去github.com上&lt;/li&gt;&#xA;&lt;li&gt;稍等几分钟, 你即可通过 &lt;a href=&#34;http://username.github.com&#34;&gt;http://username.github.com&lt;/a&gt; 访问到&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&#xA;&lt;h2&gt;附上git教程 &lt;a href=&#34;http://gitbook.liuhui998.com/&#34;&gt;GitBook中文版&lt;/a&gt;&lt;/h2&gt;&#xA;&#xA;&lt;p&gt;一般来说,你只需要几个简单的git命令就足以应付大部分需求(仅示例)&lt;/p&gt;&#xA;&#xA;&lt;pre&gt;&lt;code&gt;git clone git://github.com/wendal/wendal.net.git&#xA;git add -A&#xA;git commit -m &amp;quot;...&amp;quot;&#xA;git pull&#xA;git push&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&#xA;&lt;h2&gt;用gor编写博客将会是一件很开心的事,如果有任何意见或建议,欢迎到 &lt;a href=&#34;http://github.com/wendal/gor&#34;&gt;gor的官网&lt;/a&gt; 提交issue&lt;/h2&gt;&#xA;&#xA;&lt;h1&gt;祝你使用愉快&lt;/h1&gt;&#xA;</description>
+      <title>开篇</title>
+      <link>https://aceblog.mybluemix.net/zhouyiy/%E5%BC%80%E7%AF%87/</link>
+      <pubDate>2014-08-16 12:00:00 +0800</pubDate>
+      <description>&lt;p&gt;第一篇文章往往定下了整个博客的基调，很难写，也许解释清楚下面几个问题会比较好。&lt;/p&gt;&#xA;&#xA;&lt;h5&gt;为什么会有这个博客？&lt;/h5&gt;&#xA;&#xA;&lt;p&gt;我其实已经有一个&lt;a href=&#34;zhouyiyan.cn&#34;&gt;个人博客&lt;/a&gt;了，而且也切实感受到建立数字存在感的重要性。于是我像经理表达了建立一个以产品和技术推广的新网站的愿望，想以此为契机建立团队的知名度和声望。这个提案从2012年一直到现在，在整个大部门开始加大重视团队声望培养的大前提下，经理让我开始着手这项工作。抱着试一试的心态，我开始搞这个博客，也同时顺带尝试一些以前没有用过的技术。&lt;/p&gt;&#xA;&#xA;&lt;h5&gt;会有什么内容？&lt;/h5&gt;&#xA;&#xA;&lt;p&gt;本质上讲这是一个“营销”博客，会以我们现有的&lt;a href=&#34;bluemix.net&#34;&gt;产品&lt;/a&gt;为主，从技术的角度定期介绍新出的功能，同时也讨论一些我们认为将来可能使用的，潜在的技术手段。当然所有的功能都是官网上可以使用的，这个不是开发博客，不会透露什么未来功能的。如果是那些容易被忽视的功能，但很好用，我们也会拿来提一提。&lt;/p&gt;&#xA;&#xA;&lt;h5&gt;为什么叫非正式技术小组?&lt;/h5&gt;&#xA;&#xA;&lt;p&gt;因为这个博客并不是官方博客，官方的在&lt;a href=&#34;https://developer.ibm.com/bluemix/blog/&#34;&gt;这里&lt;/a&gt;，而且也包含了一些&lt;a href=&#34;https://developer.ibm.com/bluemix/2014/08/01/bluemix-ui-updates-for-july/&#34;&gt;七月份新功能的介绍&lt;/a&gt;，是英文的。之所以叫非正式，就是这个博客是定位在非官方博客的位置，以我们个人对技术的理解，来宣传我们的日常工作。也因为非正式这个牌子，我们发布的文章可以更加海阔天空一些，不一定就是正在使用的技术，也可能是我们对现有技术不足(mǎn)的表现。&lt;/p&gt;&#xA;</description>
     </item>
   </channel>
 </rss>
